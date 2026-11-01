@@ -1,4 +1,8 @@
-       program hello
-       print*, "Hello world - I am in VSCode on T7600!!"
-       stop
-       end
+C********************************************
+       PROGRAM hello
+
+       istat = hellosub(0)
+
+       istat = hellosub(1)
+       STOP
+       END
