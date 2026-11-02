@@ -2,9 +2,15 @@
 #
 # 1. Compiler and flags
 #
-FC	= /usr/bin/gfortran
-FFLAGS	= -std=f2018
-TARGET	= hello
+FCT7600  = /usr/bin/gfortran
+FCXPS15  = /mnt/c/Users/Kip/gcc-16.2.0-64/bin/gfortran.exe
+FC	 = $(FC$(MACHINE))
+
+FFLAGS	 = -std=f2018
+
+TARGETT7600 = hello
+TARGETXPS15 = hello
+TARGET	    = $(TARGET$(MACHINE))
 
 # 2. Source and object files
 #
