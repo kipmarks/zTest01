@@ -9,7 +9,7 @@ FC	 = $(FC$(MACHINE))
 FFLAGS	 = -std=f2018
 
 TARGETT7600 = hello
-TARGETXPS15 = hello
+TARGETXPS15 = hello.exe
 TARGET	    = $(TARGET$(MACHINE))
 
 # 2. Source and object files
