@@ -10,6 +10,12 @@ __pycache__/
 *.o
 *.exe
 
+# Vi leftovers
+*.swp
+
+# Tex leftovers
+*.dvi *.aux *.log
+
 # Distribution / packaging
 .Python
 build/
