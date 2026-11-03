@@ -20,4 +20,10 @@ sudo perl ./install-tl --no-interaction
 # URL for a small repo to test the installation is
 https://github.com/scheinerman/SampleMathPaper.git
 See README.md for instructions.
+NB The doc contains an error commands should be:
+
+pdflatex paper
+pdflatex paper
+bibtex   paper
+pdflatex paper
 
