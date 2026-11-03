@@ -1,0 +1,23 @@
+# Only need sudo for one step <<< 
+
+# Doc is https://tug.org/texlive/quickinstall.html
+
+# Download
+curl -L -o install-tl-unx.tar.gz https://mirror.ctan.org/systems/texlive/tlnet/install-tl-unx.tar.gz
+
+# Unzip
+gunzip install-tl-unx.tar.gz
+
+# Unpack
+tar xvf install-tl-unx.tar
+
+# Build 
+# NB Takes a while (40mins on T7600) if you choose the full install (default)
+cd install-tl-20261102    # Or what ever
+sudo perl ./install-tl --no-interaction
+
+
+# URL for a small repo to test the installation is
+https://github.com/scheinerman/SampleMathPaper.git
+See README.md for instructions.
+

@@ -14,7 +14,11 @@ __pycache__/
 *.swp
 
 # Tex leftovers
-*.dvi *.aux *.log
+*blg
+*.bbl
+*.aux
+*.dvi 
+*.log
 
 # Distribution / packaging
 .Python
