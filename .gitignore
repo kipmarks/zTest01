@@ -19,6 +19,9 @@ __pycache__/
 *.aux
 *.dvi 
 *.log
+*.fdb_latexmk
+*.fls
+*.synctex.gz
 
 # Distribution / packaging
 .Python
