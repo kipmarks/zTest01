@@ -26,4 +26,4 @@ $(TARGET): $(SRC)
 # 6. Cleanup
 .PHONY: clean
 clean:
-	rm -f  *.pdf *.aux *.log
+	rm -f  *.pdf *.aux *.log *.bbl *.blg *.fdb_latexmk *.fls *.synctex.gz
